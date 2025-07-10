@@ -213,7 +213,7 @@ export default function Header4() {
                 <div className="categories">
                   <button className="btn btn-warning rounded-0 text-white fw-bold d-flex justify-content-between align-items-center">
                     <span>
-                      <i className="bi bi-list me-2"></i> CATEGORIES
+                      CATEGORIES
                     </span>
                   </button>
                 </div>
@@ -256,14 +256,14 @@ export default function Header4() {
               </div>
 
               {/* Cart Box */}
-              <div className="text-md-end">
-                <div className="d-flex align-items-center cart-box">
-                  <div className="bg-dark text-white px-3 py-2">My Cart</div>
-                  <div className="bg-warning text-white px-3 py-2 fw-bold">
-                    2
-                  </div>
-                </div>
-              </div>
+              {/* Cart Box */}
+<div className="text-md-end d-flex align-items-center h-100">
+  <div className="d-flex align-items-center cart-box">
+    <div className="bg-dark text-white px-3 py-2 py-md-3">My Cart</div>
+    <div className="bg-warning text-white px-3 py-2 py-md-3 fw-bold">2</div>
+  </div>
+</div>
+
             </div>
           </div>
         </div>
