@@ -223,32 +223,32 @@ export default function Header4() {
               <div className="flex-grow-1 mb-2 mb-md-0">
                 <ul className="nav justify-content-center">
                   <li className="nav-item mx-2">
-                    <a className="nav-link fw-bold text-dark" href="#">
+                    <a className="nav-link nav4 fw-bold text-dark" href="#">
                       HOME
                     </a>
                   </li>
                   <li className="nav-item mx-2">
-                    <a className="nav-link fw-bold text-dark" href="#">
+                    <a className="nav-link  nav4 fw-bold text-dark" href="#">
                       PAGES
                     </a>
                   </li>
                   <li className="nav-item mx-2">
-                    <a className="nav-link fw-bold text-dark" href="#">
+                    <a className="nav-link nav4 fw-bold text-dark" href="#">
                       ABOUT US
                     </a>
                   </li>
                   <li className="nav-item mx-2">
-                    <a className="nav-link fw-bold text-dark" href="#">
+                    <a className="nav-link nav4 fw-bold text-dark" href="#">
                       MEN
                     </a>
                   </li>
                   <li className="nav-item mx-2">
-                    <a className="nav-link fw-bold text-dark" href="#">
+                    <a className="nav-link nav4 fw-bold text-dark" href="#">
                       WOMEN
                     </a>
                   </li>
                   <li className="nav-item mx-2">
-                    <a className="nav-link fw-bold text-dark" href="#">
+                    <a className="nav-link nav4 fw-bold text-dark" href="#">
                       CONTACT US
                     </a>
                   </li>
