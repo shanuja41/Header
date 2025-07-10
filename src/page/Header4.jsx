@@ -153,11 +153,7 @@ export default function Header4() {
                       </div>
                     </div>
 
-                    {/* Cart */}
-                    <div className="d-flex align-items-center cart-box">
-                      <div className="bg-dark text-white px-3 py-2">My Cart</div>
-                      <div className="bg-warning text-white px-3 py-2 fw-bold">2</div>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -208,9 +204,11 @@ export default function Header4() {
               
               <div className="col-md-3 col-sm-3 col-xs-12">
                 <div className="text-end">
-                  <a href="#" className="btn btn-link text-decoration-none">
-                    <i className="bi bi-question-circle me-1"></i> Support
-                  </a>
+                  {/* Cart */}
+                    <div className="d-flex align-items-center cart-box">
+                      <div className="bg-dark text-white px-3 py-2">My Cart</div>
+                      <div className="bg-warning text-white px-3 py-2 fw-bold">2</div>
+                    </div>
                 </div>
               </div>
             </div>
