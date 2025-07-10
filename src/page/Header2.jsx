@@ -21,7 +21,7 @@ export default function Header2() {
               </div>
 
               {/* Row 2: Logo left, Buy Now button right */}
-              <div className="d-flex justify-content-between align-items-center border-bottom py-2">
+              <div className="d-flex justify-content-between align-items-center  py-2">
                 <a className="navbar-brand text-white spacing-1 fw-bold fs-3" href="#">
                   Travele
                 </a>

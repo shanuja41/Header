@@ -11,7 +11,7 @@ export default function Header4() {
                 <div className="d-flex flex-wrap justify-content-md-start align-item-center gap-2 text-start text-white">
                   
                   {/* Language Dropdown */}
-                  <div className="dropdown">
+                  <div className="dropdown drop4">
                     <button
                       className="btn btn-sm btn-dark dropdown-toggle"
                       type="button"
@@ -27,7 +27,7 @@ export default function Header4() {
                   </div>
 
                   {/* Currency Dropdown */}
-                  <div className="dropdown">
+                  <div className="dropdown drop4">
                     <button
                       className="btn btn-sm btn-dark dropdown-toggle"
                       type="button"
@@ -50,7 +50,7 @@ export default function Header4() {
               {/* Right Column */}
               <div className="col-md-6 col-sm-7">
                 <div className="d-flex flex-wrap justify-content-md-end justify-content-md-end text-white gap-3">
-                  <div className="dropdown">
+                  <div className="dropdown drop4">
                     <a
                       className="dropdown-toggle text-white text-decoration-none"
                       href="#"
@@ -66,17 +66,17 @@ export default function Header4() {
                     </ul>
                   </div>
 
-                  <a href="#" className=" dropdown text-white text-decoration-none">
+                  <a href="#" className=" dropdown drop4 text-white text-decoration-none">
                     <i className="bi bi-heart me-1" />
                     Wishlist
                   </a>
 
-                  <a href="#" className=" dropdown text-white text-decoration-none">
+                  <a href="#" className=" dropdown drop4 text-white text-decoration-none">
                     <i className="bi bi-box-arrow-in-right me-1" />
                     Checkout
                   </a>
 
-                  <a href="#" className=" dropdown text-white text-decoration-none">
+                  <a href="#" className=" dropdown drop4 text-white text-decoration-none">
                     <i className="bi bi-lock-fill me-1" />
                     Login
                   </a>
