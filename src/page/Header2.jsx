@@ -101,7 +101,7 @@ export default function Header2() {
                 {["HOME", "TOUR", "PAGES", "SHOP", "BLOG", "DASHBOARD"].map((menu, idx) => (
                   <li className="nav-item dropdown px-3" key={idx}>
                     <a
-                      className="nav-link dropdown-toggle fw-bold text-white"
+                      className="nav-link nav2 dropdown-toggle fw-bold text-white"
                       href="#"
                       role="button"
                       data-bs-toggle="dropdown"
