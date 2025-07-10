@@ -1,0 +1,182 @@
+/* header1 */
+
+.logo {
+  height: 60px;
+  width: 234px;
+}
+
+.back-color {
+  background-color: black;
+}
+
+.btn-custom-outline {
+  border: 2px solid #64df81;
+  color: #64df81;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-custom-outline:hover {
+  background-color: #4d8d5c;
+  color: white;
+}
+
+.btn-custom {
+  background-color: #64df81;
+  color: black;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #4d8d5c;
+  color: white;
+}
+
+.offcanvasSize {
+  max-width: 280px;
+}
+
+.img-section {
+  background-image: url("/travel.jpg");
+  background-size: cover; /* ✅ Cover full area */
+  background-position: center; /* ✅ Center the image */
+  background-repeat: no-repeat;
+  width: 100%; /* ✅ Full width of screen */
+  height: 500px; /* Or use 100vh for full screen height */
+}
+
+.button-buy:hover {
+  background-color: blue;
+}
+
+.search-icon-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding: 0 1rem;
+}
+
+.only-top-border {
+  border-top: 3px solid red;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0;
+}
+
+
+
+
+
+/* new */
+.dropdown {
+  border-right: 1px solid #fff;
+  padding-right: 28px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.arrange {
+  margin: 0;
+  text-align: left;
+}
+
+.dropdown-toggle {
+  padding: 4px 8px;
+}
+
+.search .searchbar {
+  border: medium none;
+  border-radius: 5px 0 0 5px;
+  float: left;
+  padding: 9px 13px;
+  width: 340px;
+}
+
+.top-header {
+  font-size: 0.9rem;
+}
+.Logo-section {
+  border-bottom: 1px solid #eee;
+}
+.menu-area {
+  font-size: 0.95rem;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+
+.nav-link:hover {
+  color: orange !important;
+  content: "";
+}
+
+.badge {
+  font-size: 0.65rem;
+  padding: 0.25rem 0.4rem;
+}
+.categories button {
+  padding: 0.6rem 1rem;
+}
+
+.top-header {
+  font-size: 0.85rem;
+}
+.cart-box > div {
+  line-height: 1.2;
+  font-size: 0.9rem;
+}
+.nav-link {
+  position: relative;
+  padding: 0.25rem 0.5rem !important;
+}
+.nav-link:hover:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #000;
+}
+
+
+/* header 3 */
+
+.nav-link3 {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.nav-link3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: green;
+  transition: width 0.3s ease;
+}
+
+.nav-link3:hover::after {
+  width: 100%;
+}
+
+.border-design3 {
+  height: 100%;
+  align-items: center;
+  border-left: 1px solid #8d8d8d;
+  padding: 10px;
+}
