@@ -135,6 +135,15 @@
   line-height: 1.2;
   font-size: 0.9rem;
 }
+
+.box4{
+  background-color: rgb(95, 95, 95);
+}
+
+.call-box4{
+  background-color: orange;
+  
+}
 /* .nav-link {
   position: relative;
   padding: 0.25rem 0.5rem !important;
@@ -181,3 +190,5 @@
   border-left: 1px solid #8d8d8d;
   padding: 10px;
 }
+
+
