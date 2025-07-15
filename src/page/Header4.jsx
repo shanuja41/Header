@@ -184,10 +184,10 @@ export default function Header4() {
                   {/* Call and Cart Section */}
                   <div className="d-flex align-items-center">
                     {/* Call Info */}
-                    <div className="me-4">
+                    <div className="second-header">
                       <div className="  d-flex align-items-center">
                         <i className=" bg-warning px-3 py-3 bi bi-telephone me-2"></i>
-                        <div className=" box4">
+                        <div className=" box4 bg-secondary p-1">
                           <div className="small text-white fw-bold">
                             CALL US FREE:
                           </div>

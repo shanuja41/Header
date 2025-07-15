@@ -1,49 +1,22 @@
 /* header1 */
-
 .logo {
   height: 60px;
   width: 234px;
-}
-
-.back-color {
-  background-color: black;
-}
-
-.btn-custom-outline {
-  border: 2px solid #64df81;
-  color: #64df81;
-  background-color: transparent;
-  transition: all 0.3s ease;
-}
-
-.btn-custom-outline:hover {
-  background-color: #4d8d5c;
-  color: white;
-}
-
-.btn-custom {
-  background-color: #64df81;
-  color: black;
-  border: none;
-  transition: all 0.3s ease;
-}
-
-.btn-custom:hover {
-  background-color: #4d8d5c;
-  color: white;
 }
 
 .offcanvasSize {
   max-width: 280px;
 }
 
+/* header2 */
+
 .img-section {
   background-image: url("/travel.jpg");
-  background-size: cover; /* ✅ Cover full area */
-  background-position: center; /* ✅ Center the image */
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  width: 100%; /* ✅ Full width of screen */
-  height: 500px; /* Or use 100vh for full screen height */
+  width: 100%;
+  height: 500px;
 }
 
 .button-buy:hover {
@@ -67,25 +40,20 @@
   border-radius: 0;
 }
 
+.nav2 {
+  transition: color 0.3s ease;
+}
 
+.nav2:hover {
+  color: rgb(198, 64, 64) !important;
+  content: "";
+}
 
-
-
-/* new */
+/* header4 */
 
 .drop4 {
   border-right: 1px solid #fff;
   padding-right: 28px;
-}
-
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.arrange {
-  margin: 0;
-  text-align: left;
 }
 
 .dropdown-toggle {
@@ -100,61 +68,17 @@
   width: 340px;
 }
 
-.top-header {
-  font-size: 0.9rem;
-}
-.Logo-section {
-  border-bottom: 1px solid #eee;
-}
-.menu-area {
-  font-size: 0.95rem;
-}
-
-.nav2 {
-  transition: color 0.3s ease;
-}
-
-
-.nav2:hover {
-  color: rgb(198, 64, 64) !important;
-  content: "";
-}
-
-.badge {
-  font-size: 0.65rem;
-  padding: 0.25rem 0.4rem;
-}
-.categories button {
-  padding: 0.6rem 1rem;
-}
-
-.top-header {
-  font-size: 0.85rem;
-}
 .cart-box > div {
   line-height: 1.2;
   font-size: 0.9rem;
 }
 
-.box4{
-  background-color: rgb(95, 95, 95);
-}
-
-.call-box4{
-  background-color: orange;
-  
-}
-
 .nav4 {
   transition: color 0.3s ease;
 }
-.nav4:hover{
+.nav4:hover {
   color: orange !important;
-  
- 
 }
-
-
 
 /* header 3 */
 
@@ -187,5 +111,3 @@
   border-left: 1px solid #8d8d8d;
   padding: 10px;
 }
-
-

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <>
-      <div className="back-color">
+      <div className="bg-black">
         <div className="container">
           <header className="d-flex flex-wrap align-items-center justify-content-between mb-4">
             <nav className="navbar navbar-dark navbar-expand-lg w-100">
@@ -50,8 +50,8 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="d-flex">
-                  <button type="button" className="btn btn-custom-outline me-2">Sign In</button>
-                  <button type="button" className="btn btn-custom">Sign Up</button>
+                  <button type="button" className="btn btn btn-outline-success me-2">Sign In</button>
+                  <button type="button" className="btn btn btn-success text-black">Sign Up</button>
                 </div>
               </div>
 
@@ -95,8 +95,8 @@ export default function Home() {
                       </li>
                     </ul>
                     <div className="text-center">
-                      <button type="button" className="btn btn-custom-outline me-2 mt-4">Sign In</button>
-                      <button type="button" className="btn btn-custom mt-4">Sign Up</button>
+                      <button type="button" className="btn btn-outline-success me-2 mt-4">Sign In</button>
+                      <button type="button" className="btn btn btn-success text-black mt-4">Sign Up</button>
                     </div>
                   </div>
                 </div>
@@ -112,7 +112,6 @@ export default function Home() {
         <h1><Link to="/header2" className="text-decoration-none text-dark">header2</Link></h1>
         <h1><Link to="/header3" className="text-decoration-none text-dark">header3</Link></h1>
         <h1><Link to="/header4" className="text-decoration-none text-dark">header4</Link></h1>
-        
       </div>
     </>
   );
